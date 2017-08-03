@@ -1,0 +1,15 @@
+build:
+  detect_binary_files_with_prefix: true
+  number: 2
+  skip: False
+
+requirements:
+  run:
+    - perl
+
+package:
+  name: vcf2hapmap
+  version: 1.0.0
+
+source:
+  git_url: https://github.com/avengerpb/vcf2hapmap_conda
