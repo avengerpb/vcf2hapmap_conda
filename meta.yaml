@@ -1,6 +1,11 @@
+about:
+  home: https://github.com/avengerpb/vcf2hapmap_conda
+  license_file: LICENSE
+  summary: Convert VCF file to Hapmap file
+
 build:
   detect_binary_files_with_prefix: true
-  number: 2
+  number: 0
   skip: False
 
 requirements:
@@ -13,3 +18,5 @@ package:
 
 source:
   git_url: https://github.com/avengerpb/vcf2hapmap_conda
+  MD5: 9ddfa9948580ad688014aa929161ff2d
+
