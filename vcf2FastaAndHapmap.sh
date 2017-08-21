@@ -30,7 +30,7 @@ then option_text="--reference $filefasta --gff $filegff"
 fi
 
 
-VCF2FastaAndHapmap.pl --vcf $filein --out $fileout_label $option_text
+perl VCF2FastaAndHapmap.pl --vcf $filein --out $fileout_label $option_text
 
 
 cp  $fileout_label.hapmap $fileout ; rm $fileout_label.hapmap
